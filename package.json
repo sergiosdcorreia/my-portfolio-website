@@ -2,7 +2,7 @@
     "name": "my-portfolio-website",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://sergiosdcorreia.github.io/build",
+    "homepage": "https://sergiosdcorreia.github.io/my-portfolio-website/",
     "dependencies": {
         "gh-pages": "^2.0.1",
         "react": "^16.8.6",
