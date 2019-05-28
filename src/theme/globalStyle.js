@@ -6,8 +6,15 @@ injectGlobal`
     body {
         padding: 0;
         margin: 0;
-        box-sizing: border-box;
         font-family: 'Lato', sans-serif;
         font-size: 100%;
+    }
+
+    *, *:before, *:after {
+        box-sizing: border-box;
+    }
+
+    a {
+        text-decoration: none;
     }
 `;
