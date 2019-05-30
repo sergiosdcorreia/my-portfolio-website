@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
 `;
 
 export const Flexbox = styled.div`
@@ -11,5 +12,5 @@ export const Flexbox = styled.div`
     justify-content: ${props =>
         props.spaceBetween ? 'space-between' : 'flex-start'};
     align-content: ${props => (props.alignCenter ? 'center' : 'stretch')};
-    flex-direction: ${props => (props.alignCenter ? 'column' : 'row')};
+    flex-direction: ${props => (props.directionColumn ? 'column' : 'row')};
 `;
