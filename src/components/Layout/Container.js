@@ -10,5 +10,6 @@ export const Flexbox = styled.div`
 
     justify-content: ${props =>
         props.spaceBetween ? 'space-between' : 'flex-start'};
-    align-items: ${props => (props.alignCenter ? 'center' : 'stretch')};
+    align-content: ${props => (props.alignCenter ? 'center' : 'stretch')};
+    flex-direction: ${props => (props.alignCenter ? 'column' : 'row')};
 `;
