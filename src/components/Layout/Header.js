@@ -4,23 +4,43 @@ import styled from 'styled-components';
 import { Flexbox } from './Container';
 import { Heading1, Heading2 } from '../Typography/Typography';
 import { Image } from './Image';
-import SergioImage224 from '../../assets/images/sergioCV-h224.jpg';
+import SergioImage from '../../assets/images/sergioCV.jpg';
 
 const HeaderStyles = styled.div`
-    height: 224px;
+    height: 22.4rem;
     padding: 0 1rem;
     position: relative;
-    background-image: url(${SergioImage224});
+    background-image: url(${SergioImage});
     background-repeat: no-repeat;
-    background-position: right;
-    margin-right: -3rem;
+    background-size: contain;
+    background-position: 6rem 100%;
+
+    @media screen and (min-width: 22.8rem) {
+        background-position: 100% 100%;
+    }
+
+    @media screen and (min-width: 36rem) {
+        height: 33.6rem;
+    }
+
+    @media screen and (min-width: 48rem) {
+        height: 44.8rem;
+    }
 `;
 
 const InnerFlexbox = styled.div`
-    height: 224px;
+    height: 22.4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media screen and (min-width: 36rem) {
+        height: 33.6rem;
+    }
+
+    @media screen and (min-width: 48rem) {
+        height: 44.8rem;
+    }
 `;
 
 const Header = () => {
