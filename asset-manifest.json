@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/my-portfolio-website/static/js/main.c602a608.chunk.js",
-    "main.js.map": "/my-portfolio-website/static/js/main.c602a608.chunk.js.map",
+    "main.js": "/my-portfolio-website/static/js/main.d0785187.chunk.js",
+    "main.js.map": "/my-portfolio-website/static/js/main.d0785187.chunk.js.map",
     "runtime~main.js": "/my-portfolio-website/static/js/runtime~main.f7259bcd.js",
     "runtime~main.js.map": "/my-portfolio-website/static/js/runtime~main.f7259bcd.js.map",
     "static/js/2.e7763e6d.chunk.js": "/my-portfolio-website/static/js/2.e7763e6d.chunk.js",
     "static/js/2.e7763e6d.chunk.js.map": "/my-portfolio-website/static/js/2.e7763e6d.chunk.js.map",
     "index.html": "/my-portfolio-website/index.html",
-    "precache-manifest.af7550159b0d1faf25b85355667af6f0.js": "/my-portfolio-website/precache-manifest.af7550159b0d1faf25b85355667af6f0.js",
+    "precache-manifest.c3344f345008fe3734550a50faa3bc25.js": "/my-portfolio-website/precache-manifest.c3344f345008fe3734550a50faa3bc25.js",
     "service-worker.js": "/my-portfolio-website/service-worker.js",
     "static/media/sergioCV.jpg": "/my-portfolio-website/static/media/sergioCV.e927f61e.jpg"
   }
