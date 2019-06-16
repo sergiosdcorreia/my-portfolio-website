@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 import { Flexbox } from './Container';
 import { Heading1, Heading2 } from '../Typography/Typography';
-import { Image } from './Image';
 import SergioImage from '../../assets/images/sergioCV.jpg';
 
 const HeaderStyles = styled.div`

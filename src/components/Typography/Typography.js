@@ -36,3 +36,9 @@ export const Heading2 = styled.h2`
         font-size: 2.2rem;
     }
 `;
+
+export const Paragraph = styled.p`
+    color: #f9f9f9;
+    font-size: 3.2rem;
+    line-height: 1.6;
+`;
